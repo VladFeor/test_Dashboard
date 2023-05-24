@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var originalSrc = navIcon.src;
 
         navElement.addEventListener('mouseover', function() {
-            navIcon.src = '../img/key-squareNew.png'; // Замените путь на путь к новому изображению
+            navIcon.src = 'img/key-squareNew.png'; // Замените путь на путь к новому изображению
         });
 
         navElement.addEventListener('mouseout', function() {
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var originalSrc = navIcon.src;
 
         navElement.addEventListener('mouseover', function() {
-            navIcon.src = '../img/3d-square 1 (1).png'; // Замените путь на путь к новому изображению
+            navIcon.src = 'img/3d-square 1 (1).png'; // Замените путь на путь к новому изображению
         });
 
         navElement.addEventListener('mouseout', function() {
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var originalSrc = navIcon.src;
 
         navElement.addEventListener('mouseover', function() {
-            navIcon.src = '../img/wallet-money 2 (1).png'; // Замените путь на путь к новому изображению
+            navIcon.src = 'img/wallet-money 2 (1).png'; // Замените путь на путь к новому изображению
         });
 
         navElement.addEventListener('mouseout', function() {
@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var originalSrc = navIcon.src;
 
         navElement.addEventListener('mouseover', function() {
-            navIcon.src = '../img/discount-shape 1 (1).png'; // Замените путь на путь к новому изображению
+            navIcon.src = 'img/discount-shape 1 (1).png'; // Замените путь на путь к новому изображению
         });
 
         navElement.addEventListener('mouseout', function() {
@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var originalSrc = navIcon.src;
 
         navElement.addEventListener('mouseover', function() {
-            navIcon.src = '../img/message-question 1 (1).png'; // Замените путь на путь к новому изображению
+            navIcon.src = 'img/message-question 1 (1).png'; // Замените путь на путь к новому изображению
         });
 
         navElement.addEventListener('mouseout', function() {
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var originalSrc = navIcon.src;
 
         navElement.addEventListener('mouseover', function() {
-            navIcon.src = '../img/user-square 1 (1).png'; // Замените путь на путь к новому изображению
+            navIcon.src = 'img/user-square 1 (1).png'; // Замените путь на путь к новому изображению
         });
 
         navElement.addEventListener('mouseout', function() {
