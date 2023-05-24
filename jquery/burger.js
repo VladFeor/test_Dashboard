@@ -1,21 +1,19 @@
-var toggleButton = document.querySelectorAll('#toggleButton');
-var panel = document.getElementById('panel');
-var body = document.querySelector("body");
+const toggleButton = document.querySelectorAll('#toggleButton');
+let panel = document.getElementById('panel');
+const body = document.querySelector("body");
+let pageWidth = window.innerWidth;
 toggleButton.forEach(element=>{
     element.addEventListener('click', function() {
+      pageWidth = window.innerWidth;
         panel.classList.toggle('open'); 
-        var pageWidth = window.innerWidth;
         if (pageWidth <= 1050) {
           body.classList.toggle("noscroll");
-          
         }
        
       });
 })
 window.addEventListener("resize", function() {
-  var pageWidth = window.innerWidth;
-  
-  var panel = document.getElementById("panel");
+  pageWidth = window.innerWidth;
   if (pageWidth <= 1050) {
     panel.classList.remove("open");
     
@@ -23,14 +21,9 @@ window.addEventListener("resize", function() {
     panel.classList.add("open");
   }
 });
-var pageWidth = window.innerWidth;
-var panel = document.getElementById("panel");
-
-console.log(body)
+ pageWidth = window.innerWidth;
 if (pageWidth <= 1050) {
   panel.classList.remove("open");
-  
 } else {
   panel.classList.add("open");
-  
 }
