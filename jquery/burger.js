@@ -4,7 +4,12 @@ var body = document.querySelector("body");
 toggleButton.forEach(element=>{
     element.addEventListener('click', function() {
         panel.classList.toggle('open'); 
-        body.classList.toggle("noscroll");
+        var pageWidth = window.innerWidth;
+        if (pageWidth <= 1050) {
+          body.classList.toggle("noscroll");
+          
+        }
+       
       });
 })
 window.addEventListener("resize", function() {
