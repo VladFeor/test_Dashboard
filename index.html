@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet/less" type="text/css" href="./style/style.less" />
+    <script src="https://cdn.jsdelivr.net/npm/less" ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button class="menu "id="toggleButton"><img src="./img/menu (1).png" alt=""></button>
+    <div class="menu__block open" id="panel">
+        <div class="logo">
+            <img src="./img/Group 31.png" alt="">
+            <img src="./img/v.01.png" alt="">
+        </div>
+        <button class="close" id="toggleButton"><img src="./img/close (3).png" alt=""></button>
+        <div class="nav__block">
+            <div class="nav key">
+                <div class="nav__icon">
+                    <img src="/img/key-square.png" alt="">
+                </div>
+                <div class="nav__text">Dashboard</div>
+            </div>
+            <div class="nav box">
+                <div class="nav__icon"><img src="/img/3d-square 1.png" alt=""></div>
+                <div class="nav__text">Product</div>
+                <div class="nav__arrow"></div>
+            </div>
+            <div class="nav user">
+                <div class="nav__icon"><img src="/img/user-square 1 (2).png" alt=""></div>
+                <div class="nav__text">Customers</div>
+                <div class="nav__arrow"></div>
+            </div>
+            <div class="nav wallet">
+                <div class="nav__icon"><img src="/img/wallet-money 2.png" alt=""></div>
+                <div class="nav__text">Income</div>
+                <div class="nav__arrow"></div>
+            </div>
+            <div class="nav discount">
+                <div class="nav__icon"><img src="/img/discount-shape 1.png" alt=""></div>
+                <div class="nav__text">Promote</div>
+                <div class="nav__arrow"></div>
+            </div>
+            <div class="nav message">
+                <div class="nav__icon"><img src="/img/message-question 1.png" alt=""></div>
+                <div class="nav__text">Help</div>
+                <div class="nav__arrow"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main__block">
+        <div class="hello">Hello Evano 👋🏼,</div>
+        <div class="main__table">
+            <h1>All Customers</h1>
+            <div class="action__table">Active Members</div>
+            
+
+            <table class="customer-table">
+                <thead class="aft">
+                  <tr>
+                    <th>Customer Name</th>
+                    <th>Company</th>
+                    <th>Phone Number</th>
+                    <th>Email</th>
+                    <th>Country</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr >
+                    <td>Jane Cooper</td>
+                    <td>Microsoft</td>
+                    <td>(225) 555-0118</td>
+                    <td>jane@microsoft.com</td>
+                    <td>United States</td>
+                    <td><span class="status act">Active</span></td>
+                  </tr>
+                  <tr >
+                    <td>Jane Cooper</td>
+                    <td>Microsoft</td>
+                    <td>(225) 555-0118</td>
+                    <td>jane@microsoft.com</td>
+                    <td>United States</td>
+                    <td><span class="status act">Active</span></td>
+                  </tr>
+                  <tr >
+                    <td>Jane Cooper</td>
+                    <td>Microsoft</td>
+                    <td>(225) 555-0118</td>
+                    <td>jane@microsoft.com</td>
+                    <td>United States</td>
+                    <td><span class="status act">Active</span></td>
+                  </tr>
+                  <tr >
+                    <td>Jane Cooper</td>
+                    <td>Microsoft</td>
+                    <td>(225) 555-0118</td>
+                    <td>jane@microsoft.com</td>
+                    <td>United States</td>
+                    <td><span class="status neg">Inactive</span></td>
+                  </tr>
+                  <tr >
+                    <td>Jane Cooper</td>
+                    <td>Microsoft</td>
+                    <td>(225) 555-0118</td>
+                    <td>jane@microsoft.com</td>
+                    <td>United States</td>
+                    <td><span class="status neg">Inactive</span></td>
+                  </tr>
+                  <tr >
+                    <td>Jane Cooper</td>
+                    <td>Microsoft</td>
+                    <td>(225) 555-0118</td>
+                    <td>jane@microsoft.com</td>
+                    <td>United States</td>
+                    <td><span class="status neg">Inactive</span></td>
+                  </tr>
+                  <tr >
+                    <td>Jane Cooper</td>
+                    <td>Microsoft</td>
+                    <td>(225) 555-0118</td>
+                    <td>jane@microsoft.com</td>
+                    <td>United States</td>
+                    <td><span class="status act">Active</span></td>
+                  </tr>
+                  <tr >
+                    <td>Jane Cooper</td>
+                    <td>Microsoft</td>
+                    <td>(225) 555-0118</td>
+                    <td>jane@microsoft.com</td>
+                    <td>United States</td>
+                    <td><span class="status neg">Inactive</span></td>
+                  </tr>
+                  <!-- Добавьте остальные строки с данными здесь -->
+                </tbody>
+              </table>
+            <div class="numbers__search">
+                <div class="text__seatch">Showing data 1 to 8 of  256K entries</div>
+                <div class="pagination">
+                    <ul class="pagination-list">
+                      <li><a href="#"><i class="fas fa-angle-left"></i>&#60</a></li>
+                      <li><a href="#">1</a></li>
+                      <li><a href="#">2</a></li>
+                      <li><a href="#">3</a></li>
+                      <span>...</span>
+                      <li><a href="#">40</a></li>
+                      <li><a href="#"><i class="fas fa-angle-right"></i>&#62</a></li>
+                    </ul>
+                  </div>
+            </div>
+            <div class="search">
+            <img src="/img/search 1.png" alt="">
+            <input type="text" placeholder="Search">
+        </div>
+        </div>
+       
+    </div>
+    
+    
+
+    <script src="./jquery/nav.js"></script>
+    <script src="./jquery/burger.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+//  main: ../style.less
+
+.menu__block{
+    position: absolute;
+    left: -300px;
+    width: 300px;
+    height: 100vh;
+    background: #ffff;
+    box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+    padding: 36px 28px;
+    transition: .5s;
+    z-index: 1;
+}
+.menu{
+    position: absolute;
+    left: 15px;
+    top: 12px;
+}
+.close{
+    position: absolute;
+    top: 17px;
+    right: 17px;
+    opacity: .2;
+}
+
+.nav__block{
+    margin-top: 65px;
+}
+.nav__text{
+    font-weight: 500;
+    font-size: 14px;
+    color: #9197B3;
+    letter-spacing: -0.01em;
+    margin-left: 16px;
+    
+}
+.nav__arrow{
+    position: absolute;
+    top: 19px;
+    right: 14px;
+    width: 6px;
+    height: 10px;
+    background: url('/img/Vector\ \(5\).png') no-repeat;
+}
+
+.nav{
+    display: flex;
+    position: relative;
+    width: 250px;
+    height: 46px;
+    background: transparent;
+    border-radius: 8px;
+    padding: 13px;
+    align-items: center;
+    cursor: pointer;
+    transition: .5s;
+    margin-bottom: 5px;
+    &:hover{
+        background: #5932EA;
+    }
+    &:hover .nav__text{
+        color: #FFFFFF;
+    }
+    &:hover .nav__arrow{
+        background: url('/img/Vector\ \(6\).png') no-repeat ;
+    }
+}
+.active{
+    background: #5932EA;
+    .nav__text{
+        color: #FFFFFF;
+    }
+    .nav__arrow{
+        background: url('/img/Vector\ \(6\).png') no-repeat ;
+    }
+}
